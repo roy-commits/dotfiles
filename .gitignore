@@ -1,52 +1,26 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+.config/procps
+.bash_history
+.bash_logout
+.cache
+.git
+.gitconfig
+.gitignore
+.landscape
+.lesshst
+.local
+.motd_shown
+.npm
+.oh-my-zsh
+.p10k.zsh
+.profile
+.skip-cloud-init-warning
+.ssh
+.sudo_as_admin_successful
+.viminfo
+.wget-hsts
+.zcompdump
+.zcompdump-roy-pc-5.9
+.zcompdump-roy-pc-5.9.zwc
+.zsh_history
+LICENSE
+workspace
