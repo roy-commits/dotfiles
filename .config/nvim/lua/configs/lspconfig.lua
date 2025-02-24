@@ -10,6 +10,7 @@ local ensure_installed = {
   JavaScript = { "vtsls", "prettierd", "eslint_d", "eslint", "stylelint_lsp", "tailwindcss" },
   JSON = { "jsonls", "spectral" },
   Lua = { "lua_ls", "stylua" },
+  Make = { "autotools_ls" },
   Markdown = { "marksman" },
   Python = { "pyright", "ruff" },
   Rust = { "rust_analyzer" },

@@ -10,7 +10,8 @@ local options = {
     cpp = { "clang-format", lsp_format = "last" },
     go = { "goimports", "gofmt" },
     javascript = { "stylelint", "prettierd", "eslint_d" },
-    lua = { "stylua" }, -- Stylua is already configured as the default formatter for Lua in NvChad, but keeping it here for reference
+    lua = { "stylua" },
+    rust = { "rustfmt" },
     python = function(bufnr)
       if conform.get_formatter_info("ruff_format", bufnr).available then
         return { "ruff_format" }
