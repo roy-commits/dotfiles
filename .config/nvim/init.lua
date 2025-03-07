@@ -35,3 +35,11 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+--- 设置不同模式下的光标样式为下划线
+vim.opt.guicursor = {
+    "n-v-c:hor20-Cursor/lCursor",
+    "i-ci-ve:hor20-Cursor/lCursor",
+    "r-cr:hor20-Cursor/lCursor",
+    "o:hor20-Cursor/lCursor"
+}
